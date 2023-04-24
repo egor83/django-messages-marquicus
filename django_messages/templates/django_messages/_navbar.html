@@ -1,4 +1,4 @@
-{% load i18n staticfiles inbox %}
+{% load i18n static inbox %}
 
           <li class="{% if active_link == "inbox" %}active{% endif %}">
             <a href="{% url 'messages_inbox' %}"><i class="fa fa-inbox"></i>&nbsp;{% trans "Inbox" %}
